@@ -1,0 +1,12 @@
+C:\Users\davae\source\repos\CallCenter\Models\bin\Debug\netcoreapp3.1\Models.deps.json
+C:\Users\davae\source\repos\CallCenter\Models\bin\Debug\netcoreapp3.1\Models.dll
+C:\Users\davae\source\repos\CallCenter\Models\bin\Debug\netcoreapp3.1\Models.pdb
+C:\Users\davae\source\repos\CallCenter\Models\bin\Debug\netcoreapp3.1\ActionWithDataBase.dll
+C:\Users\davae\source\repos\CallCenter\Models\bin\Debug\netcoreapp3.1\ActionWithDataBase.pdb
+C:\Users\davae\source\repos\CallCenter\Models\obj\Debug\netcoreapp3.1\Models.csprojAssemblyReference.cache
+C:\Users\davae\source\repos\CallCenter\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfoInputs.cache
+C:\Users\davae\source\repos\CallCenter\Models\obj\Debug\netcoreapp3.1\Models.AssemblyInfo.cs
+C:\Users\davae\source\repos\CallCenter\Models\obj\Debug\netcoreapp3.1\Models.csproj.CoreCompileInputs.cache
+C:\Users\davae\source\repos\CallCenter\Models\obj\Debug\netcoreapp3.1\Models.csproj.CopyComplete
+C:\Users\davae\source\repos\CallCenter\Models\obj\Debug\netcoreapp3.1\Models.dll
+C:\Users\davae\source\repos\CallCenter\Models\obj\Debug\netcoreapp3.1\Models.pdb

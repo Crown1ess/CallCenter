@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ActionWithDataBase/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/ActionWithDataBase.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ActionWithDataBase.dll": {}
+        }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "dependencies": {
+          "ActionWithDataBase": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ActionWithDataBase/1.0.0": {
+      "type": "project",
+      "path": "../ActionWithDataBase/ActionWithDataBase.csproj",
+      "msbuildProject": "../ActionWithDataBase/ActionWithDataBase.csproj"
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "ActionWithDataBase >= 1.0.0",
+      "Models >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\davae\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\davae\\source\\repos\\CallCenter\\CallCenter\\CallCenter.csproj",
+      "projectName": "CallCenter",
+      "projectPath": "C:\\Users\\davae\\source\\repos\\CallCenter\\CallCenter\\CallCenter.csproj",
+      "packagesPath": "C:\\Users\\davae\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\davae\\source\\repos\\CallCenter\\CallCenter\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\davae\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "C:\\Users\\davae\\source\\repos\\CallCenter\\ActionWithDataBase\\ActionWithDataBase.csproj": {
+              "projectPath": "C:\\Users\\davae\\source\\repos\\CallCenter\\ActionWithDataBase\\ActionWithDataBase.csproj"
+            },
+            "C:\\Users\\davae\\source\\repos\\CallCenter\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\davae\\source\\repos\\CallCenter\\Models\\Models.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

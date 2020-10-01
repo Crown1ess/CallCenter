@@ -1,0 +1,30 @@
+﻿<Window x:Class="CallCenter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CallCenter"
+        mc:Ignorable="d"
+        Title="call Center" Height="450" Width="700" Icon="pack://application:,,,/Images/logo.png">
+    <Grid>
+        <Grid Height="250" Width="400">
+            <Rectangle>
+                <Rectangle.Fill>
+                    <LinearGradientBrush>
+                        <GradientStop Color="#FF4A6D" Offset="0.5"/>
+                        <GradientStop Color="#FF3A6D"/>
+                        <GradientStop Color="#FF1A6D" Offset="1"/>
+                    </LinearGradientBrush>
+                </Rectangle.Fill>
+            </Rectangle>
+            <StackPanel Height="250" Width="400">
+                <Label Content="LOGIN" HorizontalAlignment="Center" FontSize="20"/>
+                <TextBox x:Name="login" Margin="0 40 0 0"/>
+                <TextBox x:Name="password" Margin="0 20 0 0"/>
+            </StackPanel>
+            <StackPanel Height="50" VerticalAlignment="Bottom">
+                <Button x:Name="Login" Content="Login" Height="30" Width="100" Background="White"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+</Window>
