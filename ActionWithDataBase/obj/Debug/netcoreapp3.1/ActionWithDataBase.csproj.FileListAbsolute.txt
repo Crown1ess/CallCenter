@@ -13,3 +13,4 @@ C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\obj\Debug\netcoreapp3.
 C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\obj\Debug\netcoreapp3.1\ActionWithDataBase.csproj.CopyComplete
 C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\obj\Debug\netcoreapp3.1\ActionWithDataBase.dll
 C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\obj\Debug\netcoreapp3.1\ActionWithDataBase.pdb
+C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\obj\Debug\netcoreapp3.1\ActionWithDataBase.csprojAssemblyReference.cache

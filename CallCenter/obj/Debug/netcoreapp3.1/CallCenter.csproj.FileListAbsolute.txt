@@ -19,3 +19,16 @@ C:\Users\davae\source\repos\CallCenter\CallCenter\obj\Debug\netcoreapp3.1\CallCe
 C:\Users\davae\source\repos\CallCenter\CallCenter\obj\Debug\netcoreapp3.1\CallCenter.pdb
 C:\Users\davae\source\repos\CallCenter\CallCenter\obj\Debug\netcoreapp3.1\CallCenter.genruntimeconfig.cache
 C:\Users\davae\source\repos\CallCenter\CallCenter\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\davae\source\repos\CallCenter\CallCenter\bin\Debug\netcoreapp3.1\ActionWithDataBase.dll
+C:\Users\davae\source\repos\CallCenter\CallCenter\bin\Debug\netcoreapp3.1\Models.dll
+C:\Users\davae\source\repos\CallCenter\CallCenter\bin\Debug\netcoreapp3.1\MySql.Data.dll
+C:\Users\davae\source\repos\CallCenter\CallCenter\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
+C:\Users\davae\source\repos\CallCenter\CallCenter\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\davae\source\repos\CallCenter\CallCenter\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
+C:\Users\davae\source\repos\CallCenter\CallCenter\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
+C:\Users\davae\source\repos\CallCenter\CallCenter\bin\Debug\netcoreapp3.1\ActionWithDataBase.pdb
+C:\Users\davae\source\repos\CallCenter\CallCenter\bin\Debug\netcoreapp3.1\Models.pdb
+C:\Users\davae\source\repos\CallCenter\CallCenter\bin\Debug\netcoreapp3.1\MySql.Data.xml
+C:\Users\davae\source\repos\CallCenter\CallCenter\obj\Debug\netcoreapp3.1\InformationWindow.g.cs
+C:\Users\davae\source\repos\CallCenter\CallCenter\obj\Debug\netcoreapp3.1\InformationWindow.baml
+C:\Users\davae\source\repos\CallCenter\CallCenter\obj\Debug\netcoreapp3.1\CallCenter.csproj.CopyComplete

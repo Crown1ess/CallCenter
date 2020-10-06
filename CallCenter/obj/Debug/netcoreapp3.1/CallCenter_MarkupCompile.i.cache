@@ -10,11 +10,11 @@ none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
 C:\Users\davae\source\repos\CallCenter\CallCenter\App.xaml
-2-1103542647
+3-1832048813
 
-6730337501
+8206523923
 1951547042843
-MainWindow.xaml;Style.xaml;
+InformationWindow.xaml;MainWindow.xaml;Style.xaml;
 
 False
 

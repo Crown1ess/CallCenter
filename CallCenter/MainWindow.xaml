@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CallCenter"
         mc:Ignorable="d"
-        Title="call Center" Height="450" Width="700" Icon="pack://application:,,,/Images/logo.png">
+        Title="Call Center" Height="450" Width="700" Icon="pack://application:,,,/Images/logo.png">
     <Grid>
         <Grid Height="250" Width="400">
             <Rectangle>
@@ -19,11 +19,11 @@
             </Rectangle>
             <StackPanel Height="250" Width="400">
                 <Label Content="LOGIN" HorizontalAlignment="Center" FontSize="20"/>
-                <TextBox x:Name="login" Margin="0 40 0 0"/>
-                <TextBox x:Name="password" Margin="0 20 0 0"/>
+                <TextBox x:Name="login" Margin="0 40 0 0" Text="{Binding Login}"/>
+                <TextBox x:Name="password" Margin="0 20 0 0" Text="{Binding Password}"/>
             </StackPanel>
             <StackPanel Height="50" VerticalAlignment="Bottom">
-                <Button x:Name="Login" Content="Login" Height="30" Width="100" Background="White"/>
+                <Button x:Name="Login" Content="Login" Height="30" Width="100" Background="White" Command="{Binding ExecuteLogin}"/>
             </StackPanel>
         </Grid>
     </Grid>
