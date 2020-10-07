@@ -11,6 +11,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="MySqlConnector" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ActionWithDataBase\ActionWithDataBase.csproj" />
     <ProjectReference Include="..\Models\Models.csproj" />
   </ItemGroup>

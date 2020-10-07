@@ -6,6 +6,7 @@
         xmlns:local="clr-namespace:CallCenter"
         mc:Ignorable="d"
         Title="Call Center" Height="450" Width="700" Icon="pack://application:,,,/Images/logo.png">
+    
     <Grid>
         <Grid Height="250" Width="400">
             <Rectangle>

@@ -10,9 +10,3 @@ C:\Users\davae\source\repos\CallCenter\Models\obj\Debug\netcoreapp3.1\Models.csp
 C:\Users\davae\source\repos\CallCenter\Models\obj\Debug\netcoreapp3.1\Models.csproj.CopyComplete
 C:\Users\davae\source\repos\CallCenter\Models\obj\Debug\netcoreapp3.1\Models.dll
 C:\Users\davae\source\repos\CallCenter\Models\obj\Debug\netcoreapp3.1\Models.pdb
-C:\Users\davae\source\repos\CallCenter\Models\bin\Debug\netcoreapp3.1\MySql.Data.dll
-C:\Users\davae\source\repos\CallCenter\Models\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
-C:\Users\davae\source\repos\CallCenter\Models\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
-C:\Users\davae\source\repos\CallCenter\Models\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
-C:\Users\davae\source\repos\CallCenter\Models\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
-C:\Users\davae\source\repos\CallCenter\Models\bin\Debug\netcoreapp3.1\MySql.Data.xml

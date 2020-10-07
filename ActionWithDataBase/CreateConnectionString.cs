@@ -6,22 +6,20 @@ namespace ActionWithDataBase
 {
     public class CreateConnectionString
     {
+        private string userID;
+        private string database;
         private string server;
-        private string dataBase;
-        private string userId;
         private string password;
-        private string host;
-        public string ConnectionString;
 
-        public CreateConnectionString()
+        public string AccessConnection()
         {
-            server = "localhost";
-            dataBase = "call_center";
-            userId = "root";
+            server = "127.0.0.1";
+            userID = "root";
+            database = "call_center";
             password = "";
-            host = "3306";
 
-            ConnectionString = @"server = {server}, database = {dataBase}, userId ={userId}, password ={password}, host ={host}";
+            string connectionString = $"server = {server}; uid = {userID}; database = {database}; password = {password}";
+            return connectionString;
         }
 
     }

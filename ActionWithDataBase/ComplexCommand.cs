@@ -1,42 +1,47 @@
-﻿using MySql.Data.MySqlClient;
+﻿using MySqlConnector;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.Text;
+using System.Data.SqlClient;
+using System.Runtime.CompilerServices;
 
 namespace ActionWithDataBase
 {
     public class ComplexCommand
     {
-        CreateConnectionString createConnectionString;
-        private string commandString;
-        private ObservableCollection<User> users;
-
+        CreateConnectionString connectionString;
+        private string sqlInquiryString;
         public ComplexCommand()
         {
-            createConnectionString = new CreateConnectionString();
-            commandString = "select * from users_authorization";
+            connectionString = new CreateConnectionString();
+            sqlInquiryString = "SELECT * FROM users_authorization";
         }
+
         public ObservableCollection<User> GetUsers()
         {
-            using (MySqlConnection connection = new MySqlConnection(createConnectionString.ConnectionString))
+            ObservableCollection<User> users = new ObservableCollection<User>();
+
+            using var connection = new MySqlConnection(connectionString.AccessConnection());
+
+            connection.Open();
+
+            var mySqlCommand = new MySqlCommand(sqlInquiryString, connection);
+
+
+            using (MySqlDataReader mySqlReader = mySqlCommand.ExecuteReader())
             {
-                connection.Open();
-
-                MySqlCommand command = new MySqlCommand(commandString, connection);
-                MySqlDataReader reader = command.ExecuteReader();
-
-                while (reader.Read())
+                while (mySqlReader.Read())
                 {
-                    users.Add(
-                        new User
-                        {
-                            Login = reader.GetString("login"),
-                            Password = reader.GetString("password")
-                        });
+                    users.Add(new User 
+                    {
+                        Login = mySqlReader["login"].ToString(),
+                        Password = mySqlReader["password"].ToString()
+                    });
                 }
             }
+
             return users;
+
         }
     }
 }

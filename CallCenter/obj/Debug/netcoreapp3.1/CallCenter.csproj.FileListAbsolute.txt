@@ -14,7 +14,6 @@ C:\Users\davae\source\repos\CallCenter\CallCenter\obj\Debug\netcoreapp3.1\Style.
 C:\Users\davae\source\repos\CallCenter\CallCenter\obj\Debug\netcoreapp3.1\CallCenter.g.resources
 C:\Users\davae\source\repos\CallCenter\CallCenter\obj\Debug\netcoreapp3.1\CallCenter.AssemblyInfoInputs.cache
 C:\Users\davae\source\repos\CallCenter\CallCenter\obj\Debug\netcoreapp3.1\CallCenter.AssemblyInfo.cs
-C:\Users\davae\source\repos\CallCenter\CallCenter\obj\Debug\netcoreapp3.1\CallCenter.csproj.CoreCompileInputs.cache
 C:\Users\davae\source\repos\CallCenter\CallCenter\obj\Debug\netcoreapp3.1\CallCenter.dll
 C:\Users\davae\source\repos\CallCenter\CallCenter\obj\Debug\netcoreapp3.1\CallCenter.pdb
 C:\Users\davae\source\repos\CallCenter\CallCenter\obj\Debug\netcoreapp3.1\CallCenter.genruntimeconfig.cache
@@ -32,3 +31,11 @@ C:\Users\davae\source\repos\CallCenter\CallCenter\bin\Debug\netcoreapp3.1\MySql.
 C:\Users\davae\source\repos\CallCenter\CallCenter\obj\Debug\netcoreapp3.1\InformationWindow.g.cs
 C:\Users\davae\source\repos\CallCenter\CallCenter\obj\Debug\netcoreapp3.1\InformationWindow.baml
 C:\Users\davae\source\repos\CallCenter\CallCenter\obj\Debug\netcoreapp3.1\CallCenter.csproj.CopyComplete
+C:\Users\davae\source\repos\CallCenter\CallCenter\bin\Debug\netcoreapp3.1\MySqlConnector.dll
+C:\Users\davae\source\repos\CallCenter\CallCenter\obj\Debug\netcoreapp3.1\CallCenter.csproj.CoreCompileInputs.cache
+C:\Users\davae\source\repos\CallCenter\CallCenter\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\davae\source\repos\CallCenter\CallCenter\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\davae\source\repos\CallCenter\CallCenter\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\davae\source\repos\CallCenter\CallCenter\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\davae\source\repos\CallCenter\CallCenter\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\davae\source\repos\CallCenter\CallCenter\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll

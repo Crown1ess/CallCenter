@@ -1,16 +1,9 @@
 C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\bin\Debug\netcoreapp3.1\ActionWithDataBase.deps.json
 C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\bin\Debug\netcoreapp3.1\ActionWithDataBase.dll
 C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\bin\Debug\netcoreapp3.1\ActionWithDataBase.pdb
-C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\bin\Debug\netcoreapp3.1\MySql.Data.dll
-C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\bin\Debug\netcoreapp3.1\Google.Protobuf.dll
-C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\bin\Debug\netcoreapp3.1\BouncyCastle.Crypto.dll
-C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\bin\Debug\netcoreapp3.1\Ubiety.Dns.Core.dll
-C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\bin\Debug\netcoreapp3.1\Renci.SshNet.dll
-C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\bin\Debug\netcoreapp3.1\MySql.Data.xml
 C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\obj\Debug\netcoreapp3.1\ActionWithDataBase.AssemblyInfoInputs.cache
 C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\obj\Debug\netcoreapp3.1\ActionWithDataBase.AssemblyInfo.cs
-C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\obj\Debug\netcoreapp3.1\ActionWithDataBase.csproj.CoreCompileInputs.cache
-C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\obj\Debug\netcoreapp3.1\ActionWithDataBase.csproj.CopyComplete
 C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\obj\Debug\netcoreapp3.1\ActionWithDataBase.dll
 C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\obj\Debug\netcoreapp3.1\ActionWithDataBase.pdb
 C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\obj\Debug\netcoreapp3.1\ActionWithDataBase.csprojAssemblyReference.cache
+C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\obj\Debug\netcoreapp3.1\ActionWithDataBase.csproj.CoreCompileInputs.cache
