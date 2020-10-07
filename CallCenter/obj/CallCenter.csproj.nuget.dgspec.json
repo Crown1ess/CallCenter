@@ -26,7 +26,11 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\davae\\source\\repos\\CallCenter\\Models\\Models.csproj": {
+                "projectPath": "C:\\Users\\davae\\source\\repos\\CallCenter\\Models\\Models.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -91,9 +95,6 @@
             "projectReferences": {
               "C:\\Users\\davae\\source\\repos\\CallCenter\\ActionWithDataBase\\ActionWithDataBase.csproj": {
                 "projectPath": "C:\\Users\\davae\\source\\repos\\CallCenter\\ActionWithDataBase\\ActionWithDataBase.csproj"
-              },
-              "C:\\Users\\davae\\source\\repos\\CallCenter\\Models\\Models.csproj": {
-                "projectPath": "C:\\Users\\davae\\source\\repos\\CallCenter\\Models\\Models.csproj"
               }
             }
           }
@@ -156,11 +157,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
-            "projectReferences": {
-              "C:\\Users\\davae\\source\\repos\\CallCenter\\ActionWithDataBase\\ActionWithDataBase.csproj": {
-                "projectPath": "C:\\Users\\davae\\source\\repos\\CallCenter\\ActionWithDataBase\\ActionWithDataBase.csproj"
-              }
-            }
+            "projectReferences": {}
           }
         },
         "warningProperties": {

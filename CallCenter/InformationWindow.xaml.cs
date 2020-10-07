@@ -20,18 +20,12 @@ namespace CallCenter
         public InformationWindow()
         {
             InitializeComponent();
+            DataContext = new CallsViewModel();
         }
 
-        private void Exit_Click(object sender, RoutedEventArgs e)
-        {
-            Environment.Exit(0);
-        }
-
-        private void Back_Click(object sender, RoutedEventArgs e)
-        {
-            this.Hide();
-            MainWindow main = new MainWindow();
-            main.Show();
-        }
+        //private void Exit(object sender, RoutedEventArgs e)
+        //{
+        //    Environment.Exit(0);
+        //}
     }
 }

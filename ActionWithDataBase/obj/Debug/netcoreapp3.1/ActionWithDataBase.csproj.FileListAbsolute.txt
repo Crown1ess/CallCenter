@@ -7,3 +7,6 @@ C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\obj\Debug\netcoreapp3.
 C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\obj\Debug\netcoreapp3.1\ActionWithDataBase.pdb
 C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\obj\Debug\netcoreapp3.1\ActionWithDataBase.csprojAssemblyReference.cache
 C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\obj\Debug\netcoreapp3.1\ActionWithDataBase.csproj.CoreCompileInputs.cache
+C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\bin\Debug\netcoreapp3.1\Models.dll
+C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\bin\Debug\netcoreapp3.1\Models.pdb
+C:\Users\davae\source\repos\CallCenter\ActionWithDataBase\obj\Debug\netcoreapp3.1\ActionWithDataBase.csproj.CopyComplete

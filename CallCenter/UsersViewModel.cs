@@ -43,11 +43,6 @@ namespace CallCenter
 
             }
         }
-
-        public UsersViewModel()
-        {
-            
-        }
         public event PropertyChangedEventHandler PropertyChanged;
         public void OnPropertyChanged([CallerMemberName] string prop = null)
         {

@@ -139,6 +139,16 @@
             "rid": "win"
           }
         }
+      },
+      "Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Models.dll": {}
+        }
       }
     }
   },
@@ -485,10 +495,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Models/1.0.0": {
+      "type": "project",
+      "path": "../Models/Models.csproj",
+      "msbuildProject": "../Models/Models.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
+      "Models >= 1.0.0",
       "MySqlConnector >= 1.0.1",
       "System.Data.SqlClient >= 4.8.2"
     ]
@@ -518,7 +534,11 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\davae\\source\\repos\\CallCenter\\Models\\Models.csproj": {
+              "projectPath": "C:\\Users\\davae\\source\\repos\\CallCenter\\Models\\Models.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

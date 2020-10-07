@@ -5,11 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CallCenter"
         mc:Ignorable="d"
-        Title="InformationWindow" Height="450" Width="800">
+        Title="InformationWindow" Height="450" Width="800" Icon="/Images/logo.png">
     <Grid>
-        <Button Content="back" Click="Back_Click">
-            
-        </Button>
-        <Button Content="Exit" Click="Exit_Click"/>
+        <Grid>
+            <DataGrid x:Name="CallList" ItemsSource="{Binding Calls}" AutoGenerateColumns="False" Binding.SourceUpdated="">
+                <DataGrid.Columns>
+                    <DataGridTextColumn Header="Client Phone Number" Binding="{Binding ClientPhoneNumber}"/>
+                    <DataGridTextColumn Header="Lead stats" Binding="{Binding LeadStats}"/>
+                    <DataGridTextColumn Header="Lead call data" Binding="{Binding LeadCallDate}"/>
+                    <DataGridTextColumn Header="Call time" Binding="{Binding CallTime}"/>
+                </DataGrid.Columns>
+            </DataGrid>
+            <!--<Button Background="YellowGreen" Height="50" Width="150" VerticalAlignment="Bottom" Content="Exit" Click="Exit"/>-->
+        </Grid>
     </Grid>
 </Window>

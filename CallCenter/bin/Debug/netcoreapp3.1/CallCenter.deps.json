@@ -9,7 +9,6 @@
       "CallCenter/1.0.0": {
         "dependencies": {
           "ActionWithDataBase": "1.0.0",
-          "Models": "1.0.0",
           "MySqlConnector": "1.0.1",
           "MySql.Data": "8.0.19.0"
         },
@@ -102,6 +101,7 @@
       "System.Security.Principal.Windows/4.7.0": {},
       "ActionWithDataBase/1.0.0": {
         "dependencies": {
+          "Models": "1.0.0",
           "MySqlConnector": "1.0.1",
           "System.Data.SqlClient": "4.8.2"
         },
@@ -110,9 +110,6 @@
         }
       },
       "Models/1.0.0": {
-        "dependencies": {
-          "ActionWithDataBase": "1.0.0"
-        },
         "runtime": {
           "Models.dll": {}
         }

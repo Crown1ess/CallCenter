@@ -16,7 +16,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\ActionWithDataBase\ActionWithDataBase.csproj" />
-    <ProjectReference Include="..\Models\Models.csproj" />
   </ItemGroup>
 
   <ItemGroup>
