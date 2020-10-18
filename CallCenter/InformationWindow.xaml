@@ -8,7 +8,7 @@
         Title="InformationWindow" Height="450" Width="800" Icon="/Images/logo.png">
     <Grid>
         <Grid>
-            <DataGrid x:Name="CallList" ItemsSource="{Binding Calls}" AutoGenerateColumns="False" Binding.SourceUpdated="">
+            <DataGrid x:Name="CallList" ItemsSource="{Binding Calls}" AutoGenerateColumns="False" IsReadOnly="True">
                 <DataGrid.Columns>
                     <DataGridTextColumn Header="Client Phone Number" Binding="{Binding ClientPhoneNumber}"/>
                     <DataGridTextColumn Header="Lead stats" Binding="{Binding LeadStats}"/>

@@ -3,6 +3,7 @@ using ActionWithDataBase;
 using System.Linq;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
+using System.Windows;
 
 namespace CallCenter
 {
@@ -37,6 +38,9 @@ namespace CallCenter
                             InformationWindow informationWindow = new InformationWindow();
                             System.Windows.Application.Current.MainWindow.Close();
                             informationWindow.Show();
+                        }else
+                        {
+                            MessageBox.Show("Your password or login is not correct :D","Display");
                         }
                         
                     }));
