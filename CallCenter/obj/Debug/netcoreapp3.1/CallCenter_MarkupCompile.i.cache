@@ -8,13 +8,13 @@ C:\Users\davae\source\repos\CallCenter\CallCenter\obj\Debug\netcoreapp3.1\
 CallCenter
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
+TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
 C:\Users\davae\source\repos\CallCenter\CallCenter\App.xaml
-3-1832048813
+4910740983
 
-9751590287
+10-1804559943
 1971328300773
-InformationWindow.xaml;MainWindow.xaml;Style.xaml;
+CallProperties.xaml;InformationWindow.xaml;MainWindow.xaml;Style.xaml;
 
-True
+False
 

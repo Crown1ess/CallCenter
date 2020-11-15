@@ -13,12 +13,30 @@ namespace CallCenter
 {
     public class CallsViewModel : INotifyPropertyChanged
     {
-        ComplexCommand complexCommand = new ComplexCommand();
-        public ObservableCollection<AboutCall> Calls { get; private set; }// all the code do nothing and show nothing
+        ComplexCommand complexCommand;
+        CallProperties callProperties;
+        public ObservableCollection<AboutCall> Calls { get; private set; }
+        public string LoginFromForm { get; private set; }
 
-        public CallsViewModel()
+        public CallsViewModel(string login)
         {
-            Calls = complexCommand.GetInformationAboutCalls();
+            complexCommand = new ComplexCommand();
+            LoginFromForm = login;
+            Calls = new ObservableCollection<AboutCall>(complexCommand.GetInformationAboutCalls().Where(l => l.Login.Equals(LoginFromForm)));//user.Login equals null, I should look for why
+        }
+        private RelayCommand jumpToProperties;
+        public RelayCommand JumpToProperties
+        {
+            get
+            {
+                return jumpToProperties ??
+                    (jumpToProperties = new RelayCommand(obj =>
+                    {
+                        callProperties = new CallProperties();
+                        System.Windows.Application.Current.MainWindow.Close();
+                        callProperties.Show();
+                    }));
+            }
         }
         public event PropertyChangedEventHandler PropertyChanged;
         public void OnPropertyChanged([CallerMemberName] string properties = null)

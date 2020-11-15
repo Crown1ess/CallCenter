@@ -8,11 +8,11 @@
         Title="InformationWindow" Height="450" Width="800" Icon="/Images/logo.png">
     <Grid>
         <Grid>
-            <DataGrid x:Name="CallList" ItemsSource="{Binding Calls}" AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid x:Name="CallTable" ItemsSource="{Binding Calls}" AutoGenerateColumns="False" IsReadOnly="True">
                 <DataGrid.Columns>
-                    <DataGridTextColumn Header="Client Phone Number" Binding="{Binding ClientPhoneNumber}"/>
-                    <DataGridTextColumn Header="Lead stats" Binding="{Binding LeadStats}"/>
-                    <DataGridTextColumn Header="Lead call data" Binding="{Binding LeadCallDate}"/>
+                    <DataGridTextColumn Header="User" Binding="{Binding Login}"/>
+                    <DataGridTextColumn Header="Client Information" Binding="{Binding ClientInformation}"/>
+                    <DataGridTextColumn Header="Call Made Date" Binding="{Binding CallMadeDate}"/>
                     <DataGridTextColumn Header="Call time" Binding="{Binding CallTime}"/>
                 </DataGrid.Columns>
             </DataGrid>

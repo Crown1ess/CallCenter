@@ -8,21 +8,29 @@ namespace Models
 {
     public class AboutCall : INotifyPropertyChanged
     {
-        private string clientPhoneNumber;
+        private string clientInformation;
         private string login;
-        private string leadStats;
-        private string leadCallDate;
+        private string callMadeDate;
         private string callTime;
 
-        public string ClientPhoneNumber
+        public string ClientInformation
         {
-            get { return clientPhoneNumber; }
+            get { return clientInformation; }
             set 
-            { 
-                clientPhoneNumber = value;
-                OnPropertyChanged("ClientPhoneNumber");
+            {
+                clientInformation = value;
+                OnPropertyChanged("ClientInformation");
             }
 
+        }
+        public string CallMadeDate
+        {
+            get { return callMadeDate; }
+            set
+            {
+                callMadeDate = value;
+                OnPropertyChanged("CallMadeDate");
+            }
         }
         public string Login
         {
@@ -33,24 +41,6 @@ namespace Models
                 OnPropertyChanged("Login");
             }
 
-        }
-        public string LeadStats
-        {
-            get { return leadStats; }
-            set
-            {
-                leadStats = value;
-                OnPropertyChanged("LeadStats");
-            }
-        }
-        public string LeadCallDate
-        {
-            get { return leadCallDate; }
-            set 
-            { 
-                leadCallDate = value;
-                OnPropertyChanged("LeadCallDate");
-            }
         }
         public string CallTime
         {

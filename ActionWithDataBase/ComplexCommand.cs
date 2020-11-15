@@ -30,10 +30,9 @@ namespace ActionWithDataBase
                 {
                     calls.Add(new AboutCall
                     {
-                        ClientPhoneNumber = mySqlReader["client_phone_number"].ToString(),
+                        ClientInformation = mySqlReader["client_phone_number"].ToString() + " " + mySqlReader["create_lead_date"].ToString() + " " + mySqlReader["lead_stats"].ToString(),
+                        CallMadeDate = mySqlReader["lead_call_date"].ToString(),
                         Login = mySqlReader["login"].ToString(),
-                        LeadStats = mySqlReader["lead_stats"].ToString(),
-                        LeadCallDate = mySqlReader["lead_call_date"].ToString(),
                         CallTime = mySqlReader["call_time"].ToString()
                     });
                 }

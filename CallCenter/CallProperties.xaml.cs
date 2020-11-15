@@ -13,14 +13,13 @@ using System.Windows.Shapes;
 namespace CallCenter
 {
     /// <summary>
-    /// Interaction logic for InformationWindow.xaml
+    /// Interaction logic for CallProperties.xaml
     /// </summary>
-    public partial class InformationWindow : Window
+    public partial class CallProperties : Window
     {
-        public InformationWindow(string login)
+        public CallProperties()
         {
             InitializeComponent();
-            DataContext = new CallsViewModel(login);
         }
     }
 }

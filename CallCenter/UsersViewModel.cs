@@ -9,7 +9,9 @@ namespace CallCenter
 {
     public class UsersViewModel : INotifyPropertyChanged
     {
-        ComplexCommand complexCommand = new ComplexCommand();
+        ComplexCommand complexCommand;
+        InformationWindow informationWindow;
+
         private RelayCommand executeLogin;
         
         private string password;
@@ -25,7 +27,6 @@ namespace CallCenter
             set { login = value; }
         }
 
-
         public RelayCommand ExecuteLogin
         {
             get
@@ -35,9 +36,10 @@ namespace CallCenter
                     {
                         if (complexCommand.GetUsers().Any(l => l.Login.Equals(login)) && complexCommand.GetUsers().Any(p => p.Password.Equals(password)))
                         {
-                            InformationWindow informationWindow = new InformationWindow();
+                            informationWindow = new InformationWindow(Login);
                             System.Windows.Application.Current.MainWindow.Close();
-                            informationWindow.Show();
+                            informationWindow.Show(); 
+
                         }else
                         {
                             MessageBox.Show("Your password or login is not correct :D","Display");
@@ -46,6 +48,11 @@ namespace CallCenter
                     }));
 
             }
+        }
+
+        public UsersViewModel()
+        {
+            complexCommand = new ComplexCommand();
         }
         public event PropertyChangedEventHandler PropertyChanged;
         public void OnPropertyChanged([CallerMemberName] string prop = null)
