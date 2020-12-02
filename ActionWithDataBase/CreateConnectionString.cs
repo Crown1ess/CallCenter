@@ -11,7 +11,7 @@ namespace ActionWithDataBase
         private string server;
         private string password;
 
-        public string AccessConnection()
+        public string ConnectionString()
         {
             server = "127.0.0.1";
             userID = "root";

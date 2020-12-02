@@ -4,12 +4,14 @@ using System.Linq;
 using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using System.Windows;
+using MySqlConnector;
+using System.Collections.Generic;
 
 namespace CallCenter
 {
     public class UsersViewModel : INotifyPropertyChanged
     {
-        ComplexCommand complexCommand;
+        CreateConnectionString createConnection;
         InformationWindow informationWindow;
 
         private RelayCommand executeLogin;
@@ -26,7 +28,7 @@ namespace CallCenter
             get { return login; }
             set { login = value; }
         }
-
+        //execute login and transition to the new window
         public RelayCommand ExecuteLogin
         {
             get
@@ -34,7 +36,7 @@ namespace CallCenter
                 return executeLogin ??
                     (executeLogin = new RelayCommand(obj =>
                     {
-                        if (complexCommand.GetUsers().Any(l => l.Login.Equals(login)) && complexCommand.GetUsers().Any(p => p.Password.Equals(password)))
+                        if (checkUser())
                         {
                             informationWindow = new InformationWindow(Login);
                             System.Windows.Application.Current.MainWindow.Close();
@@ -52,8 +54,36 @@ namespace CallCenter
 
         public UsersViewModel()
         {
-            complexCommand = new ComplexCommand();
+            createConnection = new CreateConnectionString();
         }
+
+        private bool checkUser()
+        {
+            List<User> users = new List<User>(); 
+            string sqlInquiryString = $"SELECT * FROM users_authorization where login = '{Login}'";
+            using var connection = new MySqlConnection(createConnection.ConnectionString());
+            connection.Open();
+
+            MySqlCommand command = new MySqlCommand(sqlInquiryString, connection);
+
+            using(MySqlDataReader reader = command.ExecuteReader())
+            {
+                while(reader.Read())
+                {
+                    users.Add(new User
+                    {
+                        Login = reader["login"].ToString(),
+                        Password = reader["password"].ToString()
+                    });
+                }
+            }
+
+            if (users.Any(u => u.Password.Equals(Password)))
+                return true;
+            else
+                return false; 
+        }
+
         public event PropertyChangedEventHandler PropertyChanged;
         public void OnPropertyChanged([CallerMemberName] string prop = null)
         {
