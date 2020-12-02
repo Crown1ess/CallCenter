@@ -13,9 +13,9 @@ namespace ActionWithDataBase
 
         public string ConnectionString()
         {
-            server = "127.0.0.1";
-            userID = "root";
-            database = "call_center";
+            server = "";
+            userID = "";
+            database = "";
             password = "";
 
             string connectionString = $"server = {server}; uid = {userID}; database = {database}; password = {password}";
